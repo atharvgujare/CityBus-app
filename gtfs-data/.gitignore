@@ -1,0 +1,5 @@
+gtfs_pmpml/
+*.log
+tmp/
+.idea/
+*.DS_Store

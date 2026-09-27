@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ultimate-pmpl-api
+    runtime: docker
+    dockerfilePath: backend/PuneBus.Api/Dockerfile
+    dockerContext: backend/PuneBus.Api
+    plan: free
+    region: singapore
+    autoDeploy: true
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production

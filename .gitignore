@@ -1,0 +1,23 @@
+**/.vs/
+**/bin/
+**/obj/
+*.user
+.env
+.idea/
+*.iml
+
+# Temp screenshots
+phone_screenshot.png
+screen.png
+screen_live_location.png
+
+# Flutter artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+*.apk
+*.aab
+
+# Keep database for Render Docker image
+!backend/PuneBus.Api/punebus.db
