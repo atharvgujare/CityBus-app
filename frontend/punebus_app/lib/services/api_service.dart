@@ -3,9 +3,8 @@ import 'package:http/http.dart' as http;
 import '../models/journey_models.dart';
 
 class ApiService {
-  // ✅ Render.com URL (update this after deploying your backend on render.com)
-  // For local USB testing: change to "http://localhost:5178" in the Settings menu
-  static String baseUrl = "https://punebus-api.onrender.com";
+  // ✅ Live Render Cloud Backend (no localhost needed!)
+  static String baseUrl = "https://citybus-app.onrender.com";
 
   static Future<List<JourneyOption>> planJourney({
     required String originName,
